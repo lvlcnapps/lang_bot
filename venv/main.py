@@ -10,7 +10,7 @@ import os
 
 os.system('yc iam create-token > C:"\\"Users\Admin\PycharmProjects"\\"tgbot"\\"venv"\\"token.txt')
 
-bot = TeleBot('5544186880:AAExTkmS8gY7jJTu7wr0i0Q96UsfBucCx4I')
+bot = TeleBot()
 
 class MyBot():
     def __init__(self):
